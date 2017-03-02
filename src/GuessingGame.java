@@ -1,4 +1,4 @@
-import java.util.Random; // for random numbers
+import java.util.Random; // for random a numbers
 
 /**
  * Game of guessing a secret number
@@ -16,8 +16,7 @@ public class GuessingGame {
 	 * Initialize a new game.
 	 * 
 	 * @param upperBound
-	 *            is the upper bound for the secret number. Must be greater than
-	 *            1.
+	 *            is the upper bound for the secret number. Must be greater than 1.
 	 */
 	public GuessingGame(int upperBound) {
 		// this is constructor
@@ -50,7 +49,7 @@ public class GuessingGame {
 	 */
 	public boolean guess(int guessNumber) {
 		// test user input number
-		count +=1;
+		count += 1;
 		if (guessNumber == secret) {
 			this.hint = "Correct.  The secret number is " + secret;
 			return true;
@@ -62,7 +61,7 @@ public class GuessingGame {
 			return false;
 		}
 	}
-	
+
 	/**
 	 * Return a hint based on the most recent guess.
 	 * 
