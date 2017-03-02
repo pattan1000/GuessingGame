@@ -1,3 +1,4 @@
+package guessinggame;
 import java.util.Random; // for random a numbers
 
 /**
