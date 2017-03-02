@@ -1,3 +1,4 @@
+package guessinggame;
 /**
  * Create a main class to launch the program.
  * @author Pattara Phobasawakul;
